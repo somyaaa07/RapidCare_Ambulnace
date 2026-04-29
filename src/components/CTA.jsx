@@ -14,35 +14,35 @@ export default function CTA() {
   return (
     <section className="bg-[#0B1F3A] py-20 px-6 relative overflow-hidden">
       {/* Decorative blobs */}
-      <div className="absolute -top-10 -right-10 w-72 h-72 rounded-full bg-red-600/10 pointer-events-none" />
-      <div className="absolute -bottom-16 -left-16 w-96 h-96 rounded-full bg-red-600/8 pointer-events-none" />
+      <div className="absolute rounded-full pointer-events-none -top-10 -right-10 w-72 h-72 bg-red-600/10" />
+      <div className="absolute rounded-full pointer-events-none -bottom-16 -left-16 w-96 h-96 bg-red-600/8" />
 
-      <div className="max-w-2xl mx-auto text-center relative z-10">
+      <div className="relative z-10 max-w-2xl mx-auto text-center">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-red-600/20 border border-red-500/35 rounded-full px-4 py-1.5 mb-6">
-          <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse inline-block" />
-          <span className="text-red-400 text-xs font-bold tracking-widest uppercase">
+          <span className="inline-block w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+          <span className="text-xs font-bold tracking-widest text-red-400 uppercase">
             Emergency Dispatch Active
           </span>
         </div>
 
-        <h2 className="text-4xl md:text-6xl font-bold text-white leading-tight tracking-tight mb-5">
+        <h2 className="mb-5 text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl">
           Need Emergency Help{" "}
           <span className="text-red-400">Right Now?</span>
         </h2>
 
-        <p className="text-white/65 text-lg leading-relaxed mb-10 max-w-md mx-auto">
+        <p className="max-w-md mx-auto mb-10 text-lg leading-relaxed text-white/65">
           Our dispatch team is standing by 24/7. One call connects you to the
           nearest available unit.
         </p>
 
-        <div className="flex flex-wrap gap-4 justify-center">
-          <a href="tel:+911234567890">
+        <div className="flex flex-wrap justify-center gap-4">
+          <a href="tel:+919990083014">
             <button className="flex items-center gap-2.5 bg-red-600 hover:bg-red-700 text-white font-bold text-base px-8 py-4 rounded-xl transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-600/30">
-              <PhoneIcon /> Call Emergency: 1800-XXX-XXXX
+              <PhoneIcon /> Call Emergency: +919990083014
             </button>
           </a>
-          <a href="https://wa.me/911234567890">
+          <a href="https://wa.me/919990083014">
             <button className="flex items-center gap-2.5 bg-green-600/15 hover:bg-green-600/25 border-2 border-green-500/50 text-green-400 font-bold text-base px-7 py-4 rounded-xl transition-all hover:-translate-y-1">
               <WAIcon /> WhatsApp Us
             </button>

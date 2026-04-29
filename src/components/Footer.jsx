@@ -74,8 +74,8 @@ export default function Footer() {
             <ul className="space-y-4">
               {[
                 ["📍", "Sector 18, Noida, Uttar Pradesh - 201301"],
-                ["📞", "Emergency: 8900-XXX-XXX (24/7 Free)"],
-                ["📱", "+91 8956232145"],
+                ["📞", "Emergency: 9990083014 (24/7 Free)"],
+                ["📱", "+91 9990083014"],
                 ["✉️", "info@rapidcare.in"],
               ].map(([icon, text]) => (
                 <li key={text} className="flex items-start gap-3">
@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col items-center justify-between gap-3 pt-6 border-t border-white/8 sm:flex-row">
           <p className="text-xs text-white/35">
-            © 2025 RapidCare Ambulance Services. All rights reserved.
+            © 2026 RapidCare Ambulance Services. All rights reserved.
           </p>
           <p className="text-xs text-white/35"></p>
         </div>

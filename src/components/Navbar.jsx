@@ -17,11 +17,11 @@ export default function Navbar() {
   const links = ["Home", "Services", "Fleet", "Contact"];
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
+    <header className="sticky top-0 z-50 border-b border-gray-100 shadow-sm bg-white/95 backdrop-blur-md">
+      <div className="flex items-center justify-between h-16 px-6 mx-auto max-w-7xl">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 no-underline">
-          <div className="bg-red-600 rounded-xl w-9 h-9 flex items-center justify-center">
+          <div className="flex items-center justify-center bg-red-600 rounded-xl w-9 h-9">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.3" strokeLinecap="round">
               <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
               <polyline points="9 22 9 12 15 12 15 22"/>
@@ -33,7 +33,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-8">
+        <nav className="hidden gap-8 md:flex">
           {links.map((l) => (
             <a
               key={l}
@@ -48,12 +48,12 @@ export default function Navbar() {
 
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center gap-2.5">
-          <a href="tel:+911234567890">
+          <a href="tel:+919990083014">
             <button className="flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-200">
               <PhoneIcon /> Call Now
             </button>
           </a>
-          <a href="https://wa.me/911234567890">
+          <a href="https://wa.me/919990083014">
             <button className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-all hover:-translate-y-0.5">
               <WAIcon /> WhatsApp
             </button>
@@ -75,7 +75,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-white border-t border-gray-100 px-6 pb-5 pt-2">
+        <div className="px-6 pt-2 pb-5 bg-white border-t border-gray-100 md:hidden">
           {links.map((l) => (
             <a
               key={l}
@@ -87,12 +87,12 @@ export default function Navbar() {
             </a>
           ))}
           <div className="flex gap-3 mt-4">
-            <a href="tel:+911234567890" className="flex-1">
+            <a href="tel:+919990083014" className="flex-1">
               <button className="w-full flex items-center justify-center gap-2 bg-red-600 text-white font-semibold text-sm py-2.5 rounded-lg">
                 <PhoneIcon /> Call Now
               </button>
             </a>
-            <a href="https://wa.me/911234567890" className="flex-1">
+            <a href="https://wa.me/919990083014" className="flex-1">
               <button className="w-full flex items-center justify-center gap-2 bg-green-600 text-white font-semibold text-sm py-2.5 rounded-lg">
                 <WAIcon /> WhatsApp
               </button>
