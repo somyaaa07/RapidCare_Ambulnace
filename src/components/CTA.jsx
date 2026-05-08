@@ -37,12 +37,12 @@ export default function CTA() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <a href="tel:+919990083014">
+          <a href="tel:+919354077514">
             <button className="flex items-center gap-2.5 bg-red-600 hover:bg-red-700 text-white font-bold text-base px-8 py-4 rounded-xl transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-600/30">
-              <PhoneIcon /> Call Emergency: +919990083014
+              <PhoneIcon /> Call Emergency: +919354077514
             </button>
           </a>
-          <a href="https://wa.me/919990083014">
+          <a href="https://wa.me/919354077514">
             <button className="flex items-center gap-2.5 bg-green-600/15 hover:bg-green-600/25 border-2 border-green-500/50 text-green-400 font-bold text-base px-7 py-4 rounded-xl transition-all hover:-translate-y-1">
               <WAIcon /> WhatsApp Us
             </button>

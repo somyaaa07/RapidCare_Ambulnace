@@ -55,12 +55,12 @@ export default function Hero() {
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 animate-fade-up [animation-delay:450ms]">
-            <a href="tel:+919990083014">
+            <a href="tel:+919354077514">
               <button className="flex items-center gap-2.5 bg-red-600 hover:bg-red-700 text-white font-bold text-base px-7 py-4 rounded-xl transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-500/30">
                 <PhoneIcon /> Call Now — Free
               </button>
             </a>
-            <a href="https://wa.me/919990083014">
+            <a href="https://wa.me/919354077514">
               <button className="flex items-center gap-2.5 bg-green-600/20 hover:bg-green-600/30 border-2 border-green-500/60 text-green-400 font-bold text-base px-7 py-4 rounded-xl transition-all hover:-translate-y-1">
                 <WAIcon /> WhatsApp Us
               </button>

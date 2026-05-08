@@ -74,8 +74,8 @@ export default function Footer() {
             <ul className="space-y-4">
               {[
                 ["📍", "Sector 18, Noida, Uttar Pradesh - 201301"],
-                ["📞", "Emergency: 9990083014 (24/7 Free)"],
-                ["📱", "+91 9990083014"],
+                ["📞", "Emergency: 9354077514 "],
+                ["📱", "+91 9354077514"],
                 ["✉️", "info@rapidcare.in"],
               ].map(([icon, text]) => (
                 <li key={text} className="flex items-start gap-3">

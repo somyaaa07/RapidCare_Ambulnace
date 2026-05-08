@@ -48,12 +48,12 @@ export default function Navbar() {
 
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center gap-2.5">
-          <a href="tel:+919990083014">
+          <a href="tel:+919354077514">
             <button className="flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-200">
               <PhoneIcon /> Call Now
             </button>
           </a>
-          <a href="https://wa.me/919990083014">
+          <a href="https://wa.me/919354077514">
             <button className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold text-sm px-4 py-2.5 rounded-lg transition-all hover:-translate-y-0.5">
               <WAIcon /> WhatsApp
             </button>
@@ -87,12 +87,12 @@ export default function Navbar() {
             </a>
           ))}
           <div className="flex gap-3 mt-4">
-            <a href="tel:+919990083014" className="flex-1">
+            <a href="tel:+919354077514" className="flex-1">
               <button className="w-full flex items-center justify-center gap-2 bg-red-600 text-white font-semibold text-sm py-2.5 rounded-lg">
                 <PhoneIcon /> Call Now
               </button>
             </a>
-            <a href="https://wa.me/919990083014" className="flex-1">
+            <a href="https://wa.me/919354077514" className="flex-1">
               <button className="w-full flex items-center justify-center gap-2 bg-green-600 text-white font-semibold text-sm py-2.5 rounded-lg">
                 <WAIcon /> WhatsApp
               </button>
